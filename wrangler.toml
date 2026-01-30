@@ -1,0 +1,12 @@
+name = "agentxrp"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "agentxrp-db"
+database_id = "60354d80-8ea7-408b-b1da-ff2f090a363b"
+
+[vars]
+XRPL_SERVER = "wss://s.altnet.rippletest.net:51233"
+XRPL_NETWORK = "testnet"
